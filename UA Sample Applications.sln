@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 18
+VisualStudioVersion = 18.1.11312.151 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{A579C6F2-2C5F-4176-BEAE-0D1BD0750375}"
 EndProject
@@ -34,6 +34,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UA Core Library", "Stack\Core\UA Core Library.csproj", "{7543AFCB-F5AF-44AF-83C9-23164474C1E9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opc.Ua.Publisher", "SampleApplications\Samples\Publisher\Opc.Ua.Publisher.csproj", "{C2A3557B-CC0B-4291-8AAE-2C7FF44833E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UA COM Interop Library", "ComIOP\Common\UA COM Interop Library.csproj", "{24D3C616-ED4C-4AF9-B529-7B418EC8ACC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{C2A3557B-CC0B-4291-8AAE-2C7FF44833E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2A3557B-CC0B-4291-8AAE-2C7FF44833E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2A3557B-CC0B-4291-8AAE-2C7FF44833E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D3C616-ED4C-4AF9-B529-7B418EC8ACC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D3C616-ED4C-4AF9-B529-7B418EC8ACC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D3C616-ED4C-4AF9-B529-7B418EC8ACC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D3C616-ED4C-4AF9-B529-7B418EC8ACC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -111,5 +117,6 @@ Global
 		{E16F908B-C338-4B0C-9E72-2ADAD8FB98D5} = {04A2AED8-1959-43CD-BCC1-B25F43D9C91D}
 		{7543AFCB-F5AF-44AF-83C9-23164474C1E9} = {F8ADA46B-F2EA-42D3-8860-06D9333E57E0}
 		{C2A3557B-CC0B-4291-8AAE-2C7FF44833E9} = {A579C6F2-2C5F-4176-BEAE-0D1BD0750375}
+		{24D3C616-ED4C-4AF9-B529-7B418EC8ACC4} = {F8ADA46B-F2EA-42D3-8860-06D9333E57E0}
 	EndGlobalSection
 EndGlobal

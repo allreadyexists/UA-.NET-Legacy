@@ -57,10 +57,6 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Opc.Ua.ComInterop, Version=1.1.334.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Bin\extern\Opc.Ua.ComInterop.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core">
@@ -204,6 +200,10 @@
     <EmbeddedResource Include="TestData\TestData.PredefinedNodes.uanodes" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\ComIOP\Common\UA COM Interop Library.csproj">
+      <Project>{24d3c616-ed4c-4af9-b529-7b418ec8acc4}</Project>
+      <Name>UA COM Interop Library</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\Stack\Core\UA Core Library.csproj">
       <Project>{7543AFCB-F5AF-44AF-83C9-23164474C1E9}</Project>
       <Name>UA Core Library</Name>

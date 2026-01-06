@@ -69,10 +69,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Bin\extern\Interop.NetFwTypeLib.dll</HintPath>
     </Reference>
-    <Reference Include="Opc.Ua.ComInterop, Version=1.1.334.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Bin\extern\Opc.Ua.ComInterop.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core">
@@ -408,6 +404,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\ComIOP\Common\UA COM Interop Library.csproj">
+      <Project>{24d3c616-ed4c-4af9-b529-7b418ec8acc4}</Project>
+      <Name>UA COM Interop Library</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\SampleApplications\SampleLibraries\Client\UA Client Library.csproj">
       <Project>{42E9198C-ED2C-4BC8-B0A1-55D91D8F1E90}</Project>
       <Name>UA Client Library</Name>

@@ -1,18 +1,16 @@
-﻿/* ========================================================================
- * Copyright (c) 2005-2020 The OPC Foundation, Inc. All rights reserved.
- *
- * OPC Foundation MIT License 1.00
- * 
-// Licensed to the .NET Foundation under one or more agreements.
-// The .NET Foundation licenses this file to you under the MIT license.
-
-#if !NETSTANDARD2_1 && !NET472_OR_GREATER && !NET5_0_OR_GREATER
-
-// This source code is intentionally copied and addapted from the .NET core runtime to close
-// a gap in the .NET 4.5.1 Framework and the later implementations.
-// original code is located here:
-// https://github.com/dotnet/runtime/blob/main/src/libraries/System.Security.Cryptography/src/System/Security/Cryptography/HashAlgorithmName.cs
- * ======================================================================*/
+/*
+* Copyright (c) 2005-2026 - OPC Foundation
+* 
+* All Rights Reserved.
+* 
+* NOTICE:  All information contained herein is, and remains the property of 
+* OPC Foundation. The intellectual and technical concepts contained 
+* herein are proprietary to OPC Foundation and may be covered by 
+* U.S. and Foreign Patents, patents in process, and are protected by trade secret 
+* or copyright law. Dissemination of this information or reproduction of this 
+* material is strictly forbidden unless prior written permission is obtained 
+* from OPC Foundation.
+*/
 
 using System;
 

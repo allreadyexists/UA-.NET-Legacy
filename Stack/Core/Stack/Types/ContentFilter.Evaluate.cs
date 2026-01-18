@@ -1,17 +1,15 @@
-/* Copyright (c) 1996-2017, OPC Foundation. All rights reserved.
-
-   The source code in this file is covered under a dual-license scenario:
-     - RCL: for OPC Foundation members in good-standing
-     - GPL V2: everybody else
-
-   RCL license terms accompanied with this source code. See http://opcfoundation.org/License/RCL/1.00/
-
-   GNU General Public License as published by the Free Software Foundation;
-   version 2 of the License are accompanied with this source code. See http://opcfoundation.org/License/GPLv2
-
-   This source code is distributed in the hope that it will be useful,
-   but WITHOUT ANY WARRANTY; without even the implied warranty of
-   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+/*
+* Copyright (c) 2005-2026 - OPC Foundation
+* 
+* All Rights Reserved.
+* 
+* NOTICE:  All information contained herein is, and remains the property of 
+* OPC Foundation. The intellectual and technical concepts contained 
+* herein are proprietary to OPC Foundation and may be covered by 
+* U.S. and Foreign Patents, patents in process, and are protected by trade secret 
+* or copyright law. Dissemination of this information or reproduction of this 
+* material is strictly forbidden unless prior written permission is obtained 
+* from OPC Foundation.
 */
 
 using System;

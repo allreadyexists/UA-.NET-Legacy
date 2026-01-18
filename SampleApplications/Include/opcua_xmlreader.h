@@ -1,17 +1,15 @@
-/** 
-  @file opcua_xmlreader.h
-  @brief 
-
-  (c) Copyright 2008 The OPC Foundation
-  ALL RIGHTS RESERVED.
-
-  DISCLAIMER:
-  This code is provided by the OPC Foundation solely to assist in 
-  understanding and use of the appropriate OPC Specification(s) and may be 
-  used as set forth in the License Grant section of the OPC Specification.
-  This code is provided as-is and without warranty or support of any sort
-  and is subject to the Warranty and Liability Disclaimers which appear
-  in the printed OPC Specification.
+/*
+* Copyright (c) 2005-2026 - OPC Foundation
+* 
+* All Rights Reserved.
+* 
+* NOTICE:  All information contained herein is, and remains the property of 
+* OPC Foundation. The intellectual and technical concepts contained 
+* herein are proprietary to OPC Foundation and may be covered by 
+* U.S. and Foreign Patents, patents in process, and are protected by trade secret 
+* or copyright law. Dissemination of this information or reproduction of this 
+* material is strictly forbidden unless prior written permission is obtained 
+* from OPC Foundation.
 */
 
 #ifndef _OpcUa_XmlReader_H_
